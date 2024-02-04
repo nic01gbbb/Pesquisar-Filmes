@@ -1,0 +1,20 @@
+.Homie{
+margin: 100px auto;
+display: grid;
+grid-template-columns: repeat(3,300px);
+max-width: 1200px;
+gap: 3rem;
+align-items: center;
+justify-content: center;
+@media(max-width: 1016px){
+grid-template-columns: repeat(2,300px);
+}
+@media(max-width: 665px){
+grid-template-columns: repeat(1,300px);
+}
+}
+.max h1{
+color: white;
+text-align: center;
+margin-top: 25px;
+}

@@ -1,0 +1,120 @@
+.search{
+color: white;
+margin: 100px auto;
+display: grid;
+grid-template-columns: repeat(3,300px);
+max-width: 1200px;
+gap: 3rem;
+align-items: center;
+justify-content: center;
+
+@media(max-width: 1016px){
+grid-template-columns: repeat(2,300px);
+}
+@media(max-width: 665px){
+grid-template-columns: repeat(1,300px);
+}
+
+}
+
+.max{
+color: white;
+text-align: center;
+margin-top: 35px;
+}
+
+.search h2{
+margin-top: 20px;
+margin-bottom: 20px;
+text-align: center;
+}
+.search p{
+margin-left: 15px;
+}
+
+
+
+
+.cards img{
+max-width: 300px;
+color: white;
+height: 400px;
+
+
+}
+.card{
+margin-top: 10px;    
+color: white;
+background-color: #111;
+margin-bottom: 10px;
+padding: 20px 40px;
+display: flex;
+flex-direction: column;
+position: relative;
+height: 600px;
+
+@media(max-width:318px){
+width: 250px;
+margin-left: 30px;
+}
+}
+.card .star{
+color: #f7d354;
+margin-right: 5px;
+}
+
+.card h4{
+@media(max-width: 318px){
+font-size: 12px;
+
+
+}
+
+
+
+}
+
+
+.card h4{
+gap: 1rem;
+display: flex;
+position: absolute;
+bottom: 130px;
+}
+.link{
+position: absolute;
+bottom:30px;
+text-decoration: none;
+background-color: #f7d354;
+padding: 10px;
+width: 200px;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+color: black;
+font-weight: 800;
+border-radius: 5px;
+cursor: pointer;
+@media(max-width:318px){
+width: 100px;
+}
+}
+
+
+
+
+.link:hover{
+background-color: transparent;
+border: 3px solid #f7d354;
+color: red;}
+
+
+.movie {
+color: white;
+}
+.card .voto{
+position: absolute;
+bottom: 90px;
+}
+

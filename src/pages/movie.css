@@ -1,0 +1,42 @@
+.movie{
+padding-bottom: 20px;
+max-width: 500px;
+margin: 10px auto;
+background-color: #111;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+@media(max-width: 514px){
+width: 300px;
+font-size: 10px;
+}
+
+
+
+
+}
+.movie img{
+width: 60%;
+text-align: center;
+margin: 0px auto;
+padding-top: 10px;
+height: 300px;
+}
+.conteudo{
+margin-top: 10px;
+box-shadow:4px 5px 10px #000;
+padding: 10px 15px;
+padding-bottom: 20px;
+}
+.a,
+.b,
+.c,
+.d,
+.e{
+margin-bottom: 10px;
+
+
+
+
+}

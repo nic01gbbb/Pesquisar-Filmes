@@ -1,0 +1,71 @@
+nav{
+background-color: #222;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 20px;
+}
+nav h2{
+color: #f7d354;
+}
+nav input{
+padding: 8px 10px;
+border-radius: 5px;
+outline: none;
+border: 0;
+}
+
+
+
+nav input{
+@media(max-width: 665px){
+width: 110px;
+}
+@media(max-width: 3560px){
+width: 100px;
+}
+
+
+
+}
+nav h2{
+@media(max-width: 356px){
+font-size: 20px;
+
+}
+
+
+
+
+}   
+
+
+
+
+
+
+
+
+nav button{
+background-color: #f7d354;
+padding: 8px;
+border-radius: 5px;
+border: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+nav button:hover{
+background-color: transparent;
+border: 2px solid #f7d354;
+cursor: pointer;
+color: white;
+}
+
+
+form{
+gap: 1rem;
+display: flex;
+}
+
